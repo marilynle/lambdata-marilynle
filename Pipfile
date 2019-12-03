@@ -4,10 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+twine = "*"
 
 [packages]
 numpy = "*"
 pandas = "*"
+scipy-stats = "*"
+scipy = "*"
+python-scipy = "*"
 
 [requires]
 python_version = "3.7"
